@@ -1,0 +1,67 @@
+.button {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  float: left;
+}
+
+.button a {
+  font-size: 22px;
+  height: 85px;
+  padding: 0 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  cursor: pointer;
+  border-width: 1px;
+  color: #fff;
+  border-color: #5cb811;
+  font-weight: 900;
+  border-radius: 10px;
+  box-shadow: 3px 4px 0px 0px #caefab;
+  text-shadow: 0px 1px 0px #aade7c;
+  background: linear-gradient(#77d42a, #5cb811);
+  animation: pulse-animation-green 2s infinite;
+}
+
+.button a:hover {
+  background: linear-gradient(#5cb811, #77d42a);
+}
+
+@keyframes pulse-animation-green {
+  0% {
+    box-shadow: 0 0 0 0px rgba(92, 184, 17, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .button a {
+    font-size: 22px;
+    height: 85px;
+    padding: 0 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .button a {
+    font-size: 20px;
+    height: 75px;
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .button a {
+    font-size: 18px;
+    height: 75px;
+    padding: 0 30px;
+  }
+}
