@@ -5,7 +5,9 @@ import button from "./css/button.module.css";
 import VideoPlay from "@/images/videoplay.jpg";
 import LogosImg from "@/images/logos.png";
 import FinallyImg from "@/images/wavesx2braix.webp";
-import GuaranteeImg from "@/images/guarantee.png";
+import GeniusSciencyImg from "@/images/thx13vesz22.webp";
+import TeslaImg from "@/images/thx13vesz22323.webp";
+import EdisonImg from "@/images/thx13vesz22323ed.webp";
 
 export default function Home() {
   return (
@@ -14,13 +16,13 @@ export default function Home() {
         <p>Secure and reliable website</p>
       </div>
       <header className={styles.header}>
-        <p className={styles.headline}>{`Top NASA Scientist:`}</p>
+        <p className={styles.headline}>{`From NASA to Your Brain:`}</p>
         <p className={styles.headline}>
-          <span>{`"Edison's 7-Second Brain Trick`}</span>
+          <span>{`The Method That `}</span>
         </p>
         <div className={`${styles.emphasis} ${styles.bgred}`}>
           <p className={styles.headline}>
-            <span>{`Activates Your Superbrain"`}</span>
+            <span>{`Unlocks Genius Powers`}</span>
           </p>
         </div>
         <div className={`${styles.container} ${styles.contentvideoimg}`}>
@@ -57,7 +59,28 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.textContent}>
             <p className={styles.tcenter}>
-              {`Within each of us lies a universe of unexplored potential, a cosmos of capabilities waiting to be awakened. Often, we imagine that accessing this extraordinary potential is beyond our reach, hidden behind complex barriers of education, opportunity, or even destiny. However, the truth is surprisingly more accessible. The key to unlocking this internal treasure does not lie in years of rigorous study or in pursuit of mystical revelations; it resides within our own biology, waiting only for the right moment to be activated.`}
+              Within each of us lies a{" "}
+              <strong className={styles.destakText}>
+                universe of unexplored potential
+              </strong>
+              , a cosmos of capabilities waiting to be awakened. Often, we
+              imagine that accessing this extraordinary potential is beyond our
+              reach, hidden behind complex barriers of education, opportunity,
+              or even destiny. However, the truth is{" "}
+              <strong className={styles.destakText}>
+                surprisingly more accessible
+              </strong>
+              . The key to unlocking this internal treasure does not lie in
+              years of rigorous study or in pursuit of mystical revelations; it
+              resides{" "}
+              <strong className={styles.destakText}>
+                within our own biology
+              </strong>
+              , waiting only for the{" "}
+              <strong className={styles.destakText}>
+                right moment to be activated
+              </strong>
+              .
             </p>
           </div>
         </div>
@@ -73,7 +96,34 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.textContent}>
             <p className={styles.tcenter}>
-              {`Imagine if there were a brainwave, a specific frequency, that once tuned, could completely transform the way we think, learn, and create. This brainwave is not a product of science fiction, but a reality studied by NASA scientists, revealing a pathway to almost genius-level abilities. This wave, dormant within each of us, could be the key to profound transformation, unlocking a level of intelligence and creativity that many believe is reserved only for the geniuses among us. And the most extraordinary part? Activating this brainwave is simpler and more accessible than you might imagine.`}
+              Imagine if there were a{" "}
+              <strong className={styles.destakText}>
+                brainwave, a specific frequency
+              </strong>
+              , that once tuned, could{" "}
+              <strong className={styles.destakText}>
+                completely transform
+              </strong>{" "}
+              the way we think, learn, and create. This brainwave is not a
+              product of science fiction, but a{" "}
+              <strong className={styles.destakText}>
+                reality studied by NASA scientists
+              </strong>
+              , revealing a pathway to almost{" "}
+              <strong className={styles.destakText}>
+                genius-level abilities
+              </strong>
+              . This wave, dormant within each of us, could be the key to{" "}
+              <strong className={styles.destakText}>
+                profound transformation
+              </strong>
+              , unlocking a level of intelligence and creativity that many
+              believe is reserved only for the geniuses among us. And the most
+              extraordinary part? Activating this brainwave is{" "}
+              <strong className={styles.destakText}>
+                simpler and more accessible
+              </strong>{" "}
+              than you might imagine.
             </p>
           </div>
         </div>
@@ -194,38 +244,74 @@ export default function Home() {
         </a>
       </div>
 
-      <section className={`${styles.guaranteesection} ${styles.pdsection}`}>
+      <section className={styles.geniussec}>
         <div className={styles.container}>
-          <div className={styles.guaranteecontent}>
-            <div
-              className={`${styles.textContent} ${styles.guaranteetext1}`}
-              style={{ marginTop: 0 }}
-            >
-              <p
-                dangerouslySetInnerHTML={{
-                  __html:
-                    "So to prove this research-backed soundwave works and make this a 100% no-brainer for you to check out, <span>I'm going to guarantee your order today for a full 90 days.</span>",
-                }}
-              />
-            </div>
-            <div className={styles.guaranteeimg}>
-              <div className={styles.imageContainer}>
+          <p className={styles.titlegeniussec}>
+            The Geniuses Meets The Genius Wave...
+          </p>
+          <p className={styles.textgeniussec}>
+            When my colleagues and I began researching how to activate the
+            Genius Wave, we wanted something that was simple, easy and that you
+            could do at-home..
+          </p>
+          <p className={styles.textgeniussec}>
+            And we knew the solution would be unique, because this hasn’t
+            existed until now..
+          </p>
+          <div className={styles.textdestakgeniussec}>
+            <p>
+              And there were thousands of studies, not to mention ancient texts
+              that have been around for centuries to go through..
+            </p>
+            <div className={`${styles.imggeniussec} ${styles.imggeniussecsci}`}>
+              <div
+                className={`${styles.imageContainer} ${styles.imagedestakcontainer}`}
+              >
                 <Image
-                  src={GuaranteeImg}
-                  alt="Guarantee image"
+                  src={GeniusSciencyImg}
+                  alt="Genius Sciency image"
                   layout="fill"
                   className={styles.imageNext}
                 />
               </div>
             </div>
-            <div className={`${styles.textContent} ${styles.guaranteetext2}`}>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html:
-                    "It's a <span>100% ironclad money backed guarantee</span> based on your complete satisfaction with your experience. ",
-                }}
-              />
+          </div>
+          <div>
+            <div className={styles.imggeniussectesla}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={TeslaImg}
+                  alt="Nikola Tesla image"
+                  layout="fill"
+                  className={styles.imageNext}
+                />
+              </div>
             </div>
+            <p className={styles.textthegenius}>So let me give you a clue:</p>
+            <p className={`${styles.textthegenius} ${styles.textthegenius2}`}>
+              <strong>Nikola Tesla</strong> advised, If you want to find the
+              secrets of the universe, think in terms of frequency and
+              vibration..
+            </p>
+          </div>
+          <div className={styles.secondgenius}>
+            <div className={styles.imggeniussectesla}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={EdisonImg}
+                  alt="Thomas Edison image"
+                  layout="fill"
+                  className={styles.imageNext}
+                />
+              </div>
+            </div>
+            <p className={styles.textthegenius} style={{ marginTop: 0 }}>
+              <strong>Thomas Edison</strong> invented a complicated contraption
+              that activated Theta for him.
+            </p>
+            <p className={`${styles.textthegenius} ${styles.textthegenius2}`}>
+              He wrote that this device solved his hardest problems for him.
+            </p>
           </div>
         </div>
       </section>
@@ -238,51 +324,62 @@ export default function Home() {
           >
             <span>{`Frequently Asked Questions About`}</span>
           </p>
+
           <Collapse
+            className={styles.collapse}
             size="large"
             items={[
               {
+                headerClass: "headerrrr",
                 key: "1",
-                label: "What is Genius Waves?",
+                label: (
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`What is Genius Waves?`}</p>
+                  </div>
+                ),
                 children: (
-                  <p>
-                    Genius Waves is a revolutionary method based on years of
-                    research, including studies from NASA, which uses specific
-                    sound waves to activate a brainwave linked to increased
-                    brain power, creativity, and overall well-being.
-                  </p>
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`Genius Waves is a revolutionary method based on years of research, including studies from NASA, which uses specific sound waves to activate a brainwave linked to increased brain power, creativity, and overall well-being.`}</p>
+                  </div>
                 ),
               },
               {
                 key: "2",
-                label: "How does Genius Waves work?",
+                label: (
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`How does Genius Waves work?`}</p>
+                  </div>
+                ),
                 children: (
-                  <p>
-                    Through a daily routine of 7 seconds, Genius Waves
-                    stimulates your brain to produce and tune into a specific
-                    brainwave that is crucial for unlocking your cognitive and
-                    creative potential.
-                  </p>
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`Through a daily routine of 7 seconds, Genius Waves stimulates your brain to produce and tune into a specific brainwave that is crucial for unlocking your cognitive and creative potential.`}</p>
+                  </div>
                 ),
               },
               {
                 key: "3",
-                label: "Is any special equipment required?",
+                label: (
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`Is any special equipment required?`}</p>
+                  </div>
+                ),
                 children: (
-                  <p>
-                    No. You can access Genius Waves with any device capable of
-                    playing audio, such as a smartphone, tablet, or computer.
-                  </p>
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`No. You can access Genius Waves with any device capable of playing audio, such as a smartphone, tablet, or computer.`}</p>
+                  </div>
                 ),
               },
               {
                 key: "4",
-                label: "Are there any side effects?",
+                label: (
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`Are there any side effects?`}</p>
+                  </div>
+                ),
                 children: (
-                  <p>
-                    No. Genius Waves is based on solid science and is completely
-                    safe to use. No negative side effects have been reported.
-                  </p>
+                  <div className={styles.textContent} style={{ margin: 0 }}>
+                    <p>{`No. Genius Waves is based on solid science and is completely safe to use. No negative side effects have been reported.`}</p>
+                  </div>
                 ),
               },
             ]}

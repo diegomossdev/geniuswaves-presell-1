@@ -47,14 +47,20 @@
     font-size: 22px;
     height: 85px;
     padding: 0 60px;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 767px) {
+  .button {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+  }
   .button a {
     font-size: 20px;
     height: 75px;
     padding: 0 50px;
+    text-align: center;
   }
 }
 
