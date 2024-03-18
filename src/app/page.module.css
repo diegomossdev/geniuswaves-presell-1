@@ -437,6 +437,9 @@
   .textthegenius {
     text-align: center !important;
   }
+  .footer {
+    padding: 60px 20px 30px 20px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
